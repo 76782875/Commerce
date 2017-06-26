@@ -23,9 +23,7 @@ body{background:url(../images/bg.png) repeat; }
 .header .head_top .head_top_content .head_top_right{width:110px;height: 40px;float: right;}
 .head_top_left ul{overflow: hidden;}
 .head_top_left ul li{height: 18px;float: left;line-height: 18px;color: #919191;padding: 0 16px;border-right: 3px solid #606060;margin-top: 12px;}
-.head_top_left ul li:hover{color: #fff;-webkit-animation: neon1 1.5s ease-in-out infinite alternate;  
-  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
-  animation: neon1 1.5s ease-in-out infinite alternate;  }
+.head_top_left ul li:hover{color: #fff;-webkit-animation: neon1 1.5s ease-in-out infinite alternate;-moz-animation: neon1 1.5s ease-in-out infinite alternate;animation: neon1 1.5s ease-in-out infinite alternate;  }
 
 .head_top_right span{display: inline;width: 50%;height: 40px;color: #919191;line-height: 40px;padding: 0 10px;}
 .head_top_right span:hover{color: #fff;}
@@ -37,7 +35,7 @@ body{background:url(../images/bg.png) repeat; }
 .head_bottomMiddle ul{overflow: hidden;margin-left: 170px;}
 .head_bottomMiddle ul li{height: 88px;float: left;font-size: 20px;color: #333333;font-family: "黑体";margin-left: 46px;line-height: 96px;}
 .head_bottomMiddle ul li input{width: 148px;height: 28px;padding-left: 24px;background: #f3f3f3;outline: none;border: 1px solid #aaa;border-radius: 6px;color: #a7a7a7;}
-.head_bottomMiddle ul li:hover{color: #3a89cf;font-family: "黑体";}
+.head_bottomMiddle ul li:hover{color:#496177;font-family: "黑体";}
 /*字体发光*/
 @-webkit-keyframes neon1 {
   from {
@@ -139,6 +137,12 @@ body{background:url(../images/bg.png) repeat; }
 .headline1{color: #30a2f4;}
 .headline2{color: #ee4a61;}
 .headline3{color: #5eaa21;}
+.SubTitle{padding-top:16px;padding-left: 38px;font-size: 16px;padding-right: 16px;}
+.SubTitle p{word-wrap:break-word ;line-height: 30px;}
+.colorno1{color: #2a5072;}
+.colorno2{color: #832e36;}
+.colorno3{color: #357501;}
+.palce46{display: inline-block;width: 46px;height: 10px;}
 .indexbottom{width: 85.5%;padding: 22px 30px 30px 24px;background: #f7f7f7;margin-top: 3px;}
 .listStart1{display: inline-block;width: 2px;height: 12px;background: #3497df;}
 .listStart2{display: inline-block;width: 2px;height: 12px;background: #fd6a7f;}
