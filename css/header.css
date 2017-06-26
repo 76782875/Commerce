@@ -34,7 +34,7 @@ body{background:url(../images/bg.png) repeat; }
 .head_bottomLeft small{color: #3a89cf;}
 .head_bottomMiddle ul{overflow: hidden;margin-left: 170px;}
 .head_bottomMiddle ul li{height: 88px;float: left;font-size: 20px;color: #333333;font-family: "黑体";margin-left: 46px;line-height: 96px;}
-.head_bottomMiddle ul li input{width: 148px;height: 28px;padding-left: 24px;background: #f3f3f3;outline: none;border: 1px solid #aaa;border-radius: 6px;color: #a7a7a7;}
+.head_bottomMiddle ul li input{width: 148px;height: 28px;padding-left: 24px;background: #f3f3f3 url(../images/search.png) no-repeat 4px 8px;background-size: 14px 14px; outline: none;border: 1px solid #aaa;border-radius: 6px;color: #a7a7a7;}
 .head_bottomMiddle ul li:hover{color:#496177;font-family: "黑体";}
 /*字体发光*/
 @-webkit-keyframes neon1 {
