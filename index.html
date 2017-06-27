@@ -2,11 +2,43 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
 	<script type="text/javascript" src="public/jquery-1.8.3.min.js"></script>
 	<script type="text/javascript" src="js/commerce.js"></script>
+	<script type="text/javascript" src="js/swiper.min.js"></script>
 	<title>首页</title>
+	<style type="text/css">
+	 .swiper-container {
+        width: 100%;
+        height: auto;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+    }
+   .swiper-slide img{width: 100%;height: auto;}
+   .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+     border-radius: 0;
+    background: #fff;
+    opacity: 0.9;
+	}
+	.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #007aff;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets{
+	bottom: 60px;
+    left: 0;
+    width: 100%;
+}
+	</style>
 </head>
 <body>
 	<!-- header start -->
@@ -48,24 +80,40 @@
 	</div>
 	<!-- header end -->
 	<!-- 首页轮播图开始 -->
-	<div id="content">
-		<!-- 滚动广告开始 -->
-			<div class="ad">
-				<ul class="slider">
-					<li><img src="images/lunbo1.png"></li>
-					<li><img src="images/lunbo2.png"></li>
-					<li><img src="images/lunbo1.png"></li>
-					<li><img src="images/lunbo2.png"></li>
-					<li><img src="images/lunbo1.png"></li>
-				</ul>
-				<ul class="num">
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-				</ul>
-			</div>
+	<div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/lunbo1.png"></div>
+            <div class="swiper-slide"><img src="images/lunbo2.png"></div>
+            <div class="swiper-slide"><img src="images/lunbo1.png"></div>
+            <div class="swiper-slide"><img src="images/lunbo2.png"></div>
+            <div class="swiper-slide"><img src="images/lunbo1.png"></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Pagination -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+	<!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        autoHeight: true, //enable auto height
+        autoplay: 3000,//可选选项，自动滑动
+        autoplayDisableOnInteraction : true,
+    });
+    $(".swiper-container").mouseenter(function () {
+				    	//滑过悬停
+				    	swiper.stopAutoplay();
+				    	//swiper 为上面你swiper实例化的名称
+						}).mouseleave(function(){
+						//离开开启
+				    	swiper.startAutoplay();
+	})
+    </script>
 	<!-- 首页轮播图结束 -->
 	<!-- content start -->
 	<div class="content indexC">
