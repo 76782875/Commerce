@@ -40,67 +40,67 @@ body{background:url(../images/bg.png) repeat; }
 @-webkit-keyframes neon1 {
   from {
     text-shadow: 0 0 10px #fff,
-               0 0 20px  #fff,
-               0 0 30px  #fff,
-               0 0 40px  #FF1177,
-               0 0 70px  #FF1177,
-               0 0 80px  #FF1177,
-               0 0 100px #FF1177,
-               0 0 150px #FF1177;
+                 0 0 20px #fff,
+                 0 0 30px  #fff,
+                 0 0 40px  #FF1177,
+                 0 0 70px  #FF1177,
+                 0 0 80px  #FF1177,
+                 0 0 100px #FF1177,
+                 0 0 150px #FF1177;
   }
   to {
     text-shadow: 0 0 5px #fff,
-               0 0 10px #fff,
-               0 0 15px #fff,
-               0 0 20px #FF1177,
-               0 0 35px #FF1177,
-               0 0 40px #FF1177,
-               0 0 50px #FF1177,
-               0 0 75px #FF1177;
+                 0 0 10px #fff,
+                 0 0 15px #fff,
+                 0 0 20px #FF1177,
+                 0 0 35px #FF1177,
+                 0 0 40px #FF1177,
+                 0 0 50px #FF1177,
+                 0 0 75px #FF1177;
   }
 }
 @-moz-keyframes neon1 {
   from {
     text-shadow: 0 0 10px #fff,
-               0 0 20px  #fff,
-               0 0 30px  #fff,
-               0 0 40px  #FF1177,
-               0 0 70px  #FF1177,
-               0 0 80px  #FF1177,
-               0 0 100px #FF1177,
-               0 0 150px #FF1177;
+                 0 0 20px  #fff,
+                 0 0 30px  #fff,
+                 0 0 40px  #FF1177,
+                 0 0 70px  #FF1177,
+                 0 0 80px  #FF1177,
+                 0 0 100px #FF1177,
+                 0 0 150px #FF1177;
   }
   to {
     text-shadow: 0 0 5px #fff,
-               0 0 10px #fff,
-               0 0 15px #fff,
-               0 0 20px #FF1177,
-               0 0 35px #FF1177,
-               0 0 40px #FF1177,
-               0 0 50px #FF1177,
-               0 0 75px #FF1177;
+                 0 0 10px #fff,
+                 0 0 15px #fff,
+                 0 0 20px #FF1177,
+                 0 0 35px #FF1177,
+                 0 0 40px #FF1177,
+                 0 0 50px #FF1177,
+                 0 0 75px #FF1177;
   }
 }
 @-o-keyframes neon1 {
   from {
     text-shadow: 0 0 10px #fff,
-               0 0 20px  #fff,
-               0 0 30px  #fff,
-               0 0 40px  #FF1177,
-               0 0 70px  #FF1177,
-               0 0 80px  #FF1177,
-               0 0 100px #FF1177,
-               0 0 150px #FF1177;
+                 0 0 20px  #fff,
+                 0 0 30px  #fff,
+                 0 0 40px  #FF1177,
+                 0 0 70px  #FF1177,
+                 0 0 80px  #FF1177,
+                 0 0 100px #FF1177,
+                 0 0 150px #FF1177;
   }
   to {
     text-shadow: 0 0 5px #fff,
-               0 0 10px #fff,
-               0 0 15px #fff,
-               0 0 20px #FF1177,
-               0 0 35px #FF1177,
-               0 0 40px #FF1177,
-               0 0 50px #FF1177,
-               0 0 75px #FF1177;
+               	 0 0 10px #fff,
+               	 0 0 15px #fff,
+                 0 0 20px #FF1177,
+                 0 0 35px #FF1177,
+                 0 0 40px #FF1177,
+                 0 0 50px #FF1177,
+                 0 0 75px #FF1177;
   }
 }
 /*底部css*/
@@ -109,6 +109,9 @@ body{background:url(../images/bg.png) repeat; }
 .footer_top{height: 104px;border-bottom: 4px solid #062357;}
 .footer_top ul{height: 104px;width: 100%;overflow: hidden;}
 .footer_top li{float: left;padding-left: 64px;color: #dde0e3;font-size: 16px;margin-top: 34px;line-height: 24px;margin-left: 82px;}
+.footer_top li:nth-child(1){background-size:48px 48px;  background: url(../images/footer1.png) no-repeat;}
+.footer_top li:nth-child(2){background-size:48px 48px;  background: url(../images/footer2.png) no-repeat;}
+.footer_top li:nth-child(3){background-size:48px 48px;  background: url(../images/footer3.png) no-repeat;}
 .footer_top li span{color: #ffffff;font-size: 20px;font-weight: bold;}
 .footer_bottom{text-align: center;line-height: 40px;color: #dde0e3;font-size: 15px;}
 /*首页内容css*/
