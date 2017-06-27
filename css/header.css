@@ -119,16 +119,6 @@ body{background:url(../images/bg.png) repeat; }
 .content{width: 1200px;margin: 0 auto;background: url(../images/bg.png) repeat;overflow: hidden;}
 .indexC{padding:76px 124px 60px 118px;}
 .index_c_left,.index_c_middle,.index_c_right{float: left;}
-/*轮播*/
-#content{position: relative;width: 100%;height: 400px;background: red;}
-.ad{width: 100%;height: 400px;overflow-x: scroll;overflow: hidden;}
-.num{position: absolute;}
-.num{right: 35px;bottom: 35px;}
-.num li{border: 1px solid #aaa;width: 8px;height: 8px; color: white;text-align: center;float: left;margin-left: 15px;}
-/*轮播图片*/
-.ad .slider li img{width: 100%;height: auto;}
-.slider li{float: left;}
-.on{background: #3a89cf;}
 /*首页新闻*/
 .palce10{display: inline-block;width: 6px;height: 10px;}
 .indexPublic{width: 380px;-webkit-box-shadow:0 0 10px rgba(104, 109, 109, 0.5);  -moz-box-shadow:0 0 10px rgba(104, 109, 109, 0.5);box-shadow:0 0 10px rgba(104, 109, 109, 0.5); border-radius: 4px;-webkit-border-radius: 4px; -moz-border-radius: 4px;}
