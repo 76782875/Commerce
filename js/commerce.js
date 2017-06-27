@@ -1,7 +1,8 @@
 
 $(function(){
 	/*轮播*/
-	var bdwidth=$(window).width();
+	function carousel(){
+		var bdwidth=$(window).width();
 	$("#content .slider img").css({"width":bdwidth,"height":"auto"})
 	var imghei=$("img").height();
 	$("#content").css({"width":bdwidth,"height":imghei});
@@ -34,7 +35,9 @@ $(function(){
 			$(".num li").removeClass("on")
 			.eq(index).addClass("on");
 		}
-		// 轮播结束
+	}
+	carousel();
+	// 轮播结束
 			$(".indexPublic").mouseover(function(){
 				$(this).animate({marginTop:0},100);
 			})
