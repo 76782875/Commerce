@@ -96,14 +96,16 @@
     </div>
 	<!-- Initialize Swiper -->
     <script>
-    var swiper = new Swiper('.swiper-container', {
+     var swiper = new Swiper('.swiper-container', {
         pagination: '.swiper-pagination',
-        paginationClickable: true,
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
+        slidesPerView: 1,
+        paginationClickable: true,
+        spaceBetween: 30,
         autoHeight: true, //enable auto height
         autoplay: 3000,//可选选项，自动滑动
-        autoplayDisableOnInteraction : true,
+        loop: true
     });
     $(".swiper-container").mouseenter(function () {
 				    	//滑过悬停
