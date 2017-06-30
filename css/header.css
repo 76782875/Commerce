@@ -16,7 +16,7 @@ html {overflow-y: scroll;}
 body{ font-family: "微软雅黑"; background-color: #ffffff;width: 100%;}
 /*头部css*/
 body{background:url(../images/bg.png) repeat; }
-.header{width: 100%;height: 130px;-webkit-box-shadow:0px 3px 3px #c8c8c8 inset;-moz-box-shadow:0px 3px 3px #c8c8c8 inset;box-shadow:0px 3px 3px #c8c8c8 inset;border-bottom: 8px solid #1e70ba;}
+.header{width: 100%;height: 130px;background: #fff; -webkit-box-shadow:0px 3px 3px #c8c8c8 inset;-moz-box-shadow:0px 3px 3px #c8c8c8 inset;box-shadow:0px 3px 3px #c8c8c8 inset;border-bottom: 8px solid #1e70ba;}
 .header .head_top{height: 40px;width: 100%;background: #404040;margin: 0 auto;overflow: hidden;}
 .header .head_top .head_top_content{height: 40px;width: 1200px;background: #404040;margin: 0 auto;overflow: hidden;}
 .header .head_top .head_top_content .head_top_left{width:430px;height: 40px;float: left;}
@@ -33,9 +33,10 @@ body{background:url(../images/bg.png) repeat; }
 .head_bottomLeft p{font-size: 26px;color: #3a89cf;letter-spacing:2px;margin-top: 26px;font-weight: bold;font-family: "黑体";}
 .head_bottomLeft small{color: #3a89cf;}
 .head_bottomMiddle ul{overflow: hidden;margin-left: 170px;}
-.head_bottomMiddle ul li{height: 88px;float: left;font-size: 20px;color: #333333;font-family: "黑体";margin-left: 46px;line-height: 96px;}
+.head_bottomMiddle ul li{height: 88px;float: left;font-size: 20px;color: #333333;font-family: "微软雅黑";margin-left: 46px;line-height: 96px;}
 .head_bottomMiddle ul li input{width: 148px;height: 28px;padding-left: 24px;background: #f3f3f3 url(../images/search.png) no-repeat 4px 8px;background-size: 14px 14px; outline: none;border: 1px solid #aaa;border-radius: 6px;color: #a7a7a7;}
-.head_bottomMiddle ul li:hover{color:#496177;font-family: "黑体";}
+.head_bottomMiddle ul li:hover{color:#5c94c7;font-family: "微软雅黑";}
+.head_bottomMiddle ul li.active{color:#5c94c7;}
 /*字体发光*/
 @-webkit-keyframes neon1 {
   from {
@@ -151,4 +152,46 @@ body{background:url(../images/bg.png) repeat; }
 
 .list3 li p:hover{cursor:pointer;color: #89d04f;}
 .list3 li.last:hover{cursor:pointer;color: #89d04f;}
-
+/*关于我们*/
+.publicContent{width: 100%;position: relative;}
+.publicContent .publicC_top img{width: 100%;height: auto;}
+.publicC_{width: 1200px;min-height: 2340px;}
+.publicC_show{width: 1200px;min-height: 1600px;margin: 0 auto;background: #f8fbff;margin-bottom: 200px;-webkit-box-shadow: 0 0 20px #d2d2d2;-moz-box-shadow: 0 0 20px #d2d2d2;box-shadow: 0 0 20px #d2d2d2;position: relative;top: -40px;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;-o-border-radius: 10px;border-top: 10px solid #3a89cf;}
+.aboutUs{padding: 0px 86px 80px 86px;width: 1028px;}
+.aboutUs .headline{width: 100%;height: 50px;background: url(../images/about.png) no-repeat;background-size: 100% 100%; text-align: center;color: #ffffff;font-size: 25px;line-height: 50px;margin-top: 140px;}
+.aboutUs .particular{margin-top: 50px;font-size: 16px;color: #555555;margin-bottom: 44px;}
+.aboutUs .particular p{text-indent: 2em;margin-top: 40px;}
+.timeList{margin-top: 60px;}
+.timeList ul{width: 1028px;height: 70px;}
+.timeList ul li{float: left;position: relative;width: 166px;height: 56px;font-size: 14px;color: #a7a8a9;margin-left: 4px;}
+.timeList ul li:after{
+	content: "";
+    width: 166px;
+    height: 0px;
+    border-bottom: 2px dashed #dfe0e2;
+    position: absolute;
+    left: 8px;
+    bottom: 0;
+    z-index: 2;}
+.timeList ul li span{display: inline-block;width: 20px;height: 20px;
+	background: -webkit-repeating-linear-gradient(white, gray 20%, black 10%);
+  	/* Opera 11.1 - 12.0 */
+ 	background: -o-repeating-linear-gradient(white, gray 100%, black 10%);
+ 	/* Firefox 3.6 - 15 */
+  	background: -moz-repeating-linear-gradient(white, gray 100%, black 10%);
+  /* 标准的语法 */
+  	background: repeating-linear-gradient(white, gray 100%, black 10%);
+	border-radius: 50%;position: absolute;bottom: -8px;left: 8px;z-index: 10;-webkit-box-shadow: 3px 3px #d2d2d2;-moz-box-shadow: 3px 3px #d2d2d2;box-shadow: 3px 3px #d2d2d2;}
+	.timeList ul li span.active{
+		background: -webkit-repeating-linear-gradient(white, #ff9800 20%, black 10%);
+	  	/* Opera 11.1 - 12.0 */
+	 	background: -o-repeating-linear-gradient(white, #ff9800 100%, black 10%);
+	 	/* Firefox 3.6 - 15 */
+	  	background: -moz-repeating-linear-gradient(white, #ff9800 100%, black 10%);
+	  /* 标准的语法 */
+	  	background: repeating-linear-gradient(white, #ff9800 100%, black 10%);
+}
+.timeStart{color: #ff9800;}
+.historyList{overflow: scroll;}
+.historyList .inner{width: 3084px;}
+.historyList .particular{ width: 1028px; float: left;background: yellow;}
