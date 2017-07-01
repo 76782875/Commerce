@@ -161,9 +161,9 @@ body{background:url(../images/bg.png) repeat; }
 .aboutUs .headline{width: 100%;height: 50px;background: url(../images/about.png) no-repeat;background-size: 100% 100%; text-align: center;color: #ffffff;font-size: 25px;line-height: 50px;margin-top: 140px;}
 .aboutUs .particular{margin-top: 50px;font-size: 16px;color: #555555;margin-bottom: 44px;}
 .aboutUs .particular p{text-indent: 2em;margin-top: 40px;}
-.timeList{margin-top: 60px;}
+.timeList{margin-top: 60px;overflow: scroll;overflow: hidden;}
 .timeList ul{width: 1028px;height: 70px;}
-.timeList ul li{float: left;position: relative;width: 166px;height: 56px;font-size: 14px;color: #a7a8a9;margin-left: 4px;}
+.timeList ul li{float: left;position: relative;width: 160px;height: 56px;font-size: 14px;color: #a7a8a9;}
 .timeList ul li:after{
 	content: "";
     width: 166px;
@@ -192,6 +192,6 @@ body{background:url(../images/bg.png) repeat; }
 	  	background: repeating-linear-gradient(white, #ff9800 100%, black 10%);
 }
 .timeStart{color: #ff9800;}
-.historyList{overflow: scroll;}
+.historyList{overflow: scroll;overflow: hidden;}
 .historyList .inner{width: 3084px;}
-.historyList .particular{ width: 1028px; float: left;background: yellow;}
+.historyList .particular{ width: 1028px; float: left;}

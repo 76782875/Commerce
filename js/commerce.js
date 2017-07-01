@@ -17,14 +17,23 @@ $(function(){
 		$(this).children("span").addClass("active")
 		.parent("li").siblings("li").children("span").removeClass("active");
 		var jiaobiao=$(this).index();
-		$(".historyList").animate({scrollLeft:1028*jiaobiao+"px"},"fast")
+		$(".historyList").animate({scrollLeft:1028*jiaobiao+"px"},"fast");
+		console.log(jiaobiao)
+		if (jiaobiao>5)
+			// console.log("11");
+			$(".timeList").animate({scrollLeft:160*jiaobiao+"px"},"fast")
 	})
 	// 详细介绍
 	var wids=0;
+	var liwids=0;
 	$(".historyList .inner .particular").each(function(){
-		wids+= parseInt($(this).width());//获取宽度并累加
+		wids+= parseInt($(this).width());//获取模块宽度并累加
+	})
+	$(".timeList ul li").each(function(){
+		liwids+=parseInt($(this).width());//获取li宽度并累加
 	})
 	$(".historyList .inner").width(wids);
+	$(".timeList ul").width(liwids);
 	// 切换详情
 
 })
