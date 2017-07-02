@@ -156,7 +156,7 @@ body{background:url(../images/bg.png) repeat; }
 .publicContent{width: 100%;position: relative;}
 .publicContent .publicC_top img{width: 100%;height: auto;}
 .publicC_{width: 1200px;min-height: 2340px;}
-.publicC_show{width: 1200px;min-height: 1600px;margin: 0 auto;background: #f8fbff;margin-bottom: 200px;-webkit-box-shadow: 0 0 20px #d2d2d2;-moz-box-shadow: 0 0 20px #d2d2d2;box-shadow: 0 0 20px #d2d2d2;position: relative;top: -40px;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;-o-border-radius: 10px;border-top: 10px solid #3a89cf;}
+.publicC_show{width: 1200px;margin: 0 auto;background: #f8fbff;margin-bottom: 200px;-webkit-box-shadow: 0 0 20px #d2d2d2;-moz-box-shadow: 0 0 20px #d2d2d2;box-shadow: 0 0 20px #d2d2d2;position: relative;top: -40px;border-radius: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;-o-border-radius: 10px;border-top: 10px solid #3a89cf;}
 .aboutUs{padding: 0px 86px 80px 86px;width: 1028px;}
 .aboutUs .headline{width: 100%;height: 50px;background: url(../images/about.png) no-repeat;background-size: 100% 100%; text-align: center;color: #ffffff;font-size: 25px;line-height: 50px;margin-top: 140px;}
 .aboutUs .particular{margin-top: 50px;font-size: 16px;color: #555555;margin-bottom: 44px;}
@@ -195,3 +195,22 @@ body{background:url(../images/bg.png) repeat; }
 .historyList{overflow: scroll;overflow: hidden;}
 .historyList .inner{width: 3084px;}
 .historyList .particular{ width: 1028px; float: left;}
+/*办事处*/
+.officeHeadline{color: #6fa4d9;font-size: 40px;margin-bottom: 55px;}
+.officeAd{height:210px;width: 100%;margin-top: 100px;overflow: hidden;}
+.address{width: 322px;height: 210px;opacity: .5;float: left;border-radius: 10px;text-align: center;color: #ffffff;}
+.address span{font-size: 36px;display: inline-block;margin-top: 80px;}
+.address a{color: #ffffff;font-size: 16px;}
+.address1{background: url(../images/lunbo1.png) no-repeat;}
+.address2{background: url(../images/lunbo1.png) no-repeat;margin-left:20px;margin-right: 20px;}
+.address3{background: url(../images/lunbo1.png) no-repeat;}
+/*详细地址介绍*/
+.detailedAd{overflow: hidden;}
+.detailedAdT{height: 100px;background: #31b3f1;width: 1200px;-webkit-box-shadow: 3px 3px #d2d2d2;-moz-box-shadow: 3px 3px #d2d2d2;box-shadow: 3px 3px #d2d2d2;}
+.detailedAdT span:nth-child(1){ font-size: 16px;color: #ffffff;display: inline-block;margin-left: 52px;line-height: 100px;}
+.detailedAdT span:nth-child(2){font-size: 34px;color: #ffffff;margin-left: 374px;display: inline-block;}
+.detailedAdL{width: 672px;min-height: 500px;float: left;padding-left: 84px;padding-right: 54px;}
+.detailedAdR{width: 274px;min-height: 500px;background: yellow;float: left;background: #eff5fd;border-radius: 4px;margin-top: 120px;padding-left: 20px;padding-right: 20px;}
+.AdLHeadline{display: inline-block;width: 100%;height: 28px;border-left: 4px solid #3a89cf;font-size: 22px;color: #3a89cf;margin-top: 64px;line-height: 28px;padding-left: 22px;}
+.detailedAdL h6,.detailedAdL p{font-size: 16px;color: #737374;margin-top: 28px;}
+.detailedAdL p{text-indent: 2em;}

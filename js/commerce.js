@@ -22,6 +22,9 @@ $(function(){
 		if (jiaobiao>5)
 			// console.log("11");
 			$(".timeList").animate({scrollLeft:160*jiaobiao+"px"},"fast")
+		if (jiaobiao<5) {
+			$(".timeList").animate({scrollLeft:160*(jiaobiao-1)+"px"},"fast")
+		}
 	})
 	// 详细介绍
 	var wids=0;
