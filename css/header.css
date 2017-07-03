@@ -251,3 +251,13 @@ body{background:url(../images/bg.png) repeat; }
 .businessT h4{font-size: 18px;color: #666666;}
 .businessR{margin-top: 32px;margin-left: 45px;width: 314px;}
 .businessMshow h4{font-size: 19px;color: #3a89cf;}
+/*专业人员*/
+.careerman{width: 1028px;}
+.careerman h1.careermanHead{border-left: none;padding-left: 0;font-size: 38px;}
+.careerman h6{font-size: 18px;line-height: 30px;}
+.careerman .search{color: #333333;font-size: 24px;}
+.letter{overflow: hidden;margin-left: -10px;height: 28px;}
+.letter li{float: left;font-size:20px; height: 26px;width: 17px;margin-right:10px; text-align:center;}
+.letter li:hover{color: #3a89cf;border-bottom: 1px solid #3a89cf;cursor:pointer;}
+.advancedSearch{overflow: hidden;width: 100%;}
+.advancedSearch div{width: 248px;height: 80px;margin-right: 70px;background: red;float: left;}
