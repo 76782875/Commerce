@@ -37,6 +37,16 @@ $(function(){
 	})
 	$(".historyList .inner").width(wids);
 	$(".timeList ul").width(liwids);
-	// 切换详情
-
+	// 详细地址鼠标移入移出效果
+	$(".address a").css({"display":"none"});
+	$(".address").mouseenter(function(){
+		$(this).children("a").css({
+			"display":"block"
+		})
+	})
+	$(".address").mouseleave(function(){
+		$(this).children("a").css({
+			"display":"none"
+		})
+	})
 })
