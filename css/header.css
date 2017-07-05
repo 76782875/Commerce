@@ -1,5 +1,5 @@
-/*页面通用样式*/
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+页面通用样式*/
+body/*,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td */{ margin:0; padding:0; }
 body { background:#fff; color:#555; font-size:14px; font-family: Verdana, Arial, Helvetica, sans-serif; }
 td,th,caption { font-size:14px; }
 h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
@@ -182,14 +182,14 @@ body{background:url(../images/bg.png) repeat; }
   /* 标准的语法 */
   	background: repeating-linear-gradient(white, gray 100%, black 10%);
 	border-radius: 50%;position: absolute;bottom: -8px;left: 8px;z-index: 10;-webkit-box-shadow: 3px 3px #d2d2d2;-moz-box-shadow: 3px 3px #d2d2d2;box-shadow: 3px 3px #d2d2d2;}
-	.timeList ul li span.active{
-		background: -webkit-repeating-linear-gradient(white, #ff9800 20%, black 10%);
-	  	/* Opera 11.1 - 12.0 */
-	 	background: -o-repeating-linear-gradient(white, #ff9800 100%, black 10%);
-	 	/* Firefox 3.6 - 15 */
-	  	background: -moz-repeating-linear-gradient(white, #ff9800 100%, black 10%);
-	  /* 标准的语法 */
-	  	background: repeating-linear-gradient(white, #ff9800 100%, black 10%);
+.timeList ul li span.active{
+	background: -webkit-repeating-linear-gradient(white, #ff9800 20%, black 10%);
+	/* Opera 11.1 - 12.0 */
+	background: -o-repeating-linear-gradient(white, #ff9800 100%, black 10%);
+	/* Firefox 3.6 - 15 */
+	background: -moz-repeating-linear-gradient(white, #ff9800 100%, black 10%);
+	/* 标准的语法 */
+	background: repeating-linear-gradient(white, #ff9800 100%, black 10%);
 }
 .timeStart{color: #ff9800;}
 .historyList{overflow: scroll;overflow: hidden;}
@@ -234,13 +234,14 @@ body{background:url(../images/bg.png) repeat; }
 .businessBotmL,.businessBotmR{width: 48%;float: left;min-height: 300px;}
 .businessBotmR{margin-left: 4%;}
 .businessBotm .businessInfo{margin-top: 60px;}
-.businessBotm .businessInfo h3{font-size: 22px;color: #333333;}
+.businessBotm .businessInfo h3{font-size: 22px;color: #333333;line-height: 60px;}
 .businessBotm .businessInfo p{color: #8a8b8c;font-size: 18px;}
 .businessBotm .businessInfo ul{margin-left: -20px;}
 .businessBotm .businessInfo ul li{list-style:disc;color: #3a89cf;font-size: 15px;margin-top: 20px; }
+.businessBotm .businessInfo ul a{color: #3a89cf;}
 /*业务详解*/
 .businessL{width: 340px;float: left;padding-right: 0;}
-.businessL span{font-size: 14px;color: #666666;display: block;margin-top: 34px;margin-bottom: 144px;}
+.businessL span{font-size: 16px;color: #666666;display: block;margin-top: 34px;margin-bottom: 144px;}
 .businessL ul{margin-left: -20px;}
 .businessL ul li{list-style:disc;color: #999999;font-size: 15px;margin-top: 20px;}
 .businessM{width: 346px;min-height:200px;float: left;margin-top: 32px; margin-bottom: 60px;}
@@ -251,40 +252,75 @@ body{background:url(../images/bg.png) repeat; }
 .businessT h4{font-size: 18px;color: #666666;}
 .businessR{margin-top: 32px;margin-left: 45px;width: 314px;}
 .businessMshow h4{font-size: 19px;color: #3a89cf;}
+.detailedAdL ul li.active{color: #3a89cf;}
 /*专业人员*/
 .careerman{width: 1028px;}
 .careerman h1.careermanHead{border-left: none;padding-left: 0;font-size: 38px;}
 .careerman h6{font-size: 18px;line-height: 30px;}
 .careerman .search{color: #333333;font-size: 24px;}
-.letter{overflow: hidden;margin-left: -10px;height: 28px;margin-top: 20px;}
+.letter{overflow: hidden;margin-left: -20px;height: 28px;margin-top: 20px;}
 .letter li{float: left;font-size:20px; height: 26px;width: 17px;margin-right:10px; text-align:center;border-bottom: 1px solid rgba(58, 137, 207, 0.03);}
 .letter li:hover{color: #3a89cf;border-bottom: 1px solid #3a89cf;cursor:pointer;}
 .advancedSearch{overflow: hidden;width: 100%;}
 .advancedSearch div.SearchOptions{width: 248px;height: 80px;margin-right: 70px;float: left;color: #8a8b8c;font-size: 18px;line-height: 34px;}
 .advancedSearch div.SearchOptions input{outline: none;width: 242px;height: 30px;color:black;font-size: 16px;border-radius:4px;  }
-/*高级搜索*/
-..advancedSearch{overflow: hidden;}
+/*高级搜索 首字母*/
+/*.advancedSearch{overflow: hidden;}*/
 .advancedSearch h2{font-size: 16px;color: #666666;display: inline-block;margin-top: 30px;width: 100%;}
 .advancedSearchL{width: 255px;min-height: 500px;float: left;margin-top: 30px;}
 .advancedSearchR{width: 788px;min-height: 500px;float: left;margin-left: 60px;margin-top: 30px;}
 .advancedSearchL .initial{height: 190px;padding: 0 20px; border:2px solid #cccccc;  border-top: 6px solid #31b3f1;border-radius: 4px;-webkit-box-shadow: 0 0 20px #d2d2d2;-moz-box-shadow: 0 0 20px #d2d2d2;box-shadow: 0 0 20px #d2d2d2;background: #f5f5f5;}
 .advancedSearchL .Maxthon{height: 324px; margin-top: 52px; border-radius: 4px;-webkit-box-shadow: 0 0 20px #d2d2d2;-moz-box-shadow: 0 0 20px #d2d2d2;box-shadow: 0 0 20px #d2d2d2;
 background: -webkit-repeating-linear-gradient(rgba(40, 201, 222, 0.65), rgba(3, 169, 244, 0.89) 100%, #2196F3 10%);
-  	/* Opera 11.1 - 12.0 */
- 	background: -o-repeating-linear-gradient(rgba(40, 201, 222, 0.65), rgba(3, 169, 244, 0.89) 100%, #2196F3 10%);
- 	/* Firefox 3.6 - 15 */
-  	background: -moz-repeating-linear-gradient(rgba(40, 201, 222, 0.65), rgba(3, 169, 244, 0.89) 100%, #2196F3 10%);
-  /* 标准的语法 */
-  	background: repeating-linear-gradient(#28c9de, rgba(3, 169, 244, 0.89) 100%, #2196F3 10%);
-	-webkit-box-shadow: 0 0 20px #d2d2d2;-moz-box-shadow: 0 0 20px #d2d2d2;box-shadow: 0 0 20px #d2d2d2;
+ /* Opera 11.1 - 12.0 */
+background: -o-repeating-linear-gradient(rgba(40, 201, 222, 0.65), rgba(3, 169, 244, 0.89) 100%, #2196F3 10%);
+ /* Firefox 3.6 - 15 */
+background: -moz-repeating-linear-gradient(rgba(40, 201, 222, 0.65), rgba(3, 169, 244, 0.89) 100%, #2196F3 10%);
+/* 标准的语法 */
+background: repeating-linear-gradient(#28c9de, rgba(3, 169, 244, 0.89) 100%, #2196F3 10%);
+-webkit-box-shadow: 0 0 20px #d2d2d2;-moz-box-shadow: 0 0 20px #d2d2d2;box-shadow: 0 0 20px #d2d2d2;
 padding: 0 20px;
 }
-.advancedSearchR .advancedSearchRtop{width: 100%;height: 65px;background: #31b3f1;border-top: 6px solid #31b3f1;-webkit-border-radius: 4px;-moz-border-radius: 4px;-o-border-radius: 4px;}
+.advancedSearchR .advancedSearchRtop{padding-left: 30px; height: 65px;background: #31b3f1;border-top: 6px solid #31b3f1;-webkit-border-radius: 4px;-moz-border-radius: 4px;-o-border-radius: 4px;}
 .advancedSearchR .tableList{width: 100%;height: 1050px;-webkit-box-shadow: 0 0 20px #d2d2d2;-moz-box-shadow: 0 0 20px #d2d2d2;box-shadow: 0 0 20px #d2d2d2;-webkit-border-radius: 4px;-moz-border-radius: 4px;-o-border-radius: 4px;}
 .initial h3{font-size: 18px;color: #3a89cf;font-weight: bold;margin-top: 22px;}
-.initial .letter{margin-left: 10px;height: 120px;margin-top: 10px;}
+.initial .letter{height: 120px;margin-top: 10px;margin-left: -38px;}
 .initial .letter li{margin-top: 10px;width: 12px;}
 .Maxthon h3{font-size: 18px;color: #fff;font-weight: bold;margin-top: 22px;display: inline-block;}
+.Maxthon ul{margin-left: -40px;margin-top: -20px;}
 .Maxthon .search{margin-top: 24px;font-size: 14px;color: #fff;font-weight: bold;line-height: 20px;}
 .Maxthon .search input{width: 190px;height: 28px;padding-left: 24px;margin-top: 6px;background: #f3f3f3 url(../images/search.png) no-repeat 4px 8px;background-size: 14px 14px;outline: none;border: 1px solid #aaa;border-radius: 4px;color: #3e3a3a;}
-/*20170704收尾*/
+.advancedSearchRtop{font-size: 22px;color: #fff;line-height: 65px;}
+.SearcP{display: inline-block;width: 40px;height: 30px;}
+.tableList table tr th{height: 86px;background: #fff;text-align: center;font-size: 18px;color: #333333;}
+.tableList table tr td{height: 70px;text-align: center;font-size: 14px;}
+.tableList .Page{height: 36px;width: 790px;margin-top: 40px;text-align: center;line-height: 40px;}
+.tableList .Page span{font-size: 16px;display: inline-block;width: 20px;}
+.tableList .Page span:hover{cursor: pointer;}
+.tableList .Page span.active{color: #007af7;}
+/*高级搜索 姓氏*/
+.searchName{width: 810px;margin-top: 10px;}
+.searchName .referral{width: 810px;height: 206px;overflow: hidden;}
+.searchName .referral dt{width: 142px;height: 186px;float: left;}
+.searchName .referral dt img{width: 142px;height: 186px;}
+.searchName .referral dd{width: 300px;height: 36px; margin-left: 172px;font-size: 16px;color: #999999;}
+.searchName .referral dd.Lawyer{font-size: 26px;margin-top: 20px;color: #3c3c3c;line-height: 26px;}
+.experience{width: 810px;}
+.experience p{width: 810px;font-size: 15px;color: #3c3c3c;margin-top: 40px;text-indent: 0;font-weight: bold;}
+.lawExperience{width: 800px;padding-left: 10px;overflow: hidden;margin-top: 50px;}
+.lawExperience .lawExpL{width: 510px;height: 842px;border: 2px solid rgba(68, 62, 62, 0.43);float: left;margin-bottom: 28px;-webkit-box-shadow: 0 0 20px #d2d2d2;-moz-box-shadow: 0 0 20px #d2d2d2;box-shadow: 0 0 20px #d2d2d2;-webkit-border-radius: 4px;-moz-border-radius: 4px;-o-border-radius: 4px;}
+.lawExperience .lawExpR{width: 256px;min-height: 800px;float: right;background: #f8fbff;}
+.lawExperience .lawExpL .tab{width: 510px;height: 40px;background: #f1f1f1;}
+.lawExperience .lawExpL .tab span{display: inline-block;width: 252px;height: 40px;text-align: center;line-height: 40px;font-size: 16px;color: #999999;font-weight: bold;border-bottom: 4px solid #fffefe;}
+.lawExperience .lawExpL .tab span:hover{cursor: pointer;}
+.lawExperience .lawExpL .tab span.active{border-bottom: 4px solid #3a89cf;color: #3a89cf;}
+.lawExperience .lawExpL .lawshow{width: 510px;height: 800px;margin-top: 4px;overflow: scroll;overflow: hidden;}
+.lawExperience .lawExpL .lawshow .lawinner{height: 800px;width: 1020px;overflow: height: ;}
+.lawExperience .lawExpL .lawshow .Survey{width: 510px;height: 800px;float: left;}
+.lawExperience .lawExpL .lawshow .Lawnew{width: 510px;height: 800px;float: left;}
+.lawExperience .lawExpL .lawshow .Survey .Surveylist{width: 470px;padding-right: 20px;padding-left: 20px;margin-top: 56px;}
+.lawExperience .lawExpL .lawshow .Survey .Surveylist h3{font-size: 15px;color: #333333;font-weight: bold;text-indent: 1em;}
+.lawExperience .lawExpL .lawshow .Survey .Surveylist p{font-size: 15px;color: #999999;font-weight: bold;text-indent: 0;margin-top: 20px;line-height: 34px;}
+.lawExperience .lawExpR .detail{width: 100%;height: 258px;-webkit-box-shadow: 0 0 20px #d2d2d2;-moz-box-shadow: 0 0 20px #d2d2d2;box-shadow: 0 0 20px #d2d2d2;}
+.lawExperience .lawExpR .mat{margin-top: 36px;}
+.lawExperience .lawExpR .detail span{display: inline-block;width: 490px;  height: 40px;padding-left: 20px;color: #3a89cf;background:#f1f1f1;line-height: 40px;font-size: 16px;font-weight: bold; }

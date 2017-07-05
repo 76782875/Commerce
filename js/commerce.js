@@ -1,18 +1,18 @@
 
 $(function(){
-	$(".head_bottomMiddle ul li").click(function(){
+	$(".head_bottomMiddle ul li").on('click',function(){
 		$(this).addClass("active").siblings("li").removeClass("active");
-	})
+	}).end();
 	// 首页3板块动效
-	$(".indexPublic").mouseover(function(){
+	$(".indexPublic").on('mouseover',function(){
 		$(this).animate({marginTop:0},100);
-	})
-	$(".indexPublic").mouseleave(function(){
+	}).end();
+	$('.indexPublic').on('mouseleave',function(){
 		$(this).animate({marginTop:30},100);
-	})
+	}).end();
 	// 关于我们时间列表
-	$(".timeStart").css({"color":"#ff9800"})
-	$(".timeList li").click(function(){
+	$('.timeStart').css({'color':'#ff9800'})
+	$('.timeList li').on('click',function(){
 		$(this).css({"color":"#ff9800"}).siblings("li").css({"color":"#a7a8a9"})
 		$(this).children("span").addClass("active")
 		.parent("li").siblings("li").children("span").removeClass("active");
@@ -25,28 +25,41 @@ $(function(){
 		if (jiaobiao<5) {
 			$(".timeList").animate({scrollLeft:160*(jiaobiao-1)+"px"},"fast")
 		}
-	})
+	}).end();
 	// 详细介绍
-	var wids=0;
-	var liwids=0;
-	$(".historyList .inner .particular").each(function(){
+	var wids=0,
+		liwids=0;
+	$('.historyList .inner .particular').each(function(){
 		wids+= parseInt($(this).width());//获取模块宽度并累加
-	})
-	$(".timeList ul li").each(function(){
+	}).end();
+	$('.timeList ul li').each(function(){
 		liwids+=parseInt($(this).width());//获取li宽度并累加
-	})
-	$(".historyList .inner").width(wids);
-	$(".timeList ul").width(liwids);
+	}).end();
+	$('.historyList .inner').width(wids);
+	$('.timeList ul').width(liwids);
 	// 详细地址鼠标移入移出效果
-	$(".address a").css({"display":"none"});
-	$(".address").mouseenter(function(){
-		$(this).children("a").css({
-			"display":"block"
+	$('.address a').css({'display':'none'});
+	$('.address').on('mouseenter',function(){
+		$(this).children('a').css({
+			'display':'block'
 		})
-	})
-	$(".address").mouseleave(function(){
-		$(this).children("a").css({
-			"display":"none"
+	}).end();
+	$('.address').on('mouseleave',function(){
+		$(this).children('a').css({
+			'display':'none'
 		})
-	})
+	}).end();
+	// 业务详解
+	$('.businessL ul li').on('click',function(){
+		$(this).addClass("active").siblings("li").removeClass("active");
+	}).end();
+	// 表格
+	$('.tableList table tr:odd').css({'background':'#f8f8f8','color':'#0a8ac7'});
+	// 分页开始
+	$('.lawExpL .tab span').on('click',function(){
+		$(this).addClass("active").siblings('span').removeClass("active");
+		var inoff=$(this).index();
+		$(".lawExperience .lawExpL .lawshow").animate({scrollLeft:510*inoff+"px"},"fast");
+	}).end();
+
 })
