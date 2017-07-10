@@ -56,7 +56,7 @@ a{ text-decoration: none;}
     .m_inTop .P_font{font-size: 12px;}
     .m_inTop .more{font-size: 16px;float: right;}
     .s_headline ul li{font-size: 16	px;}
-    .indexS p{font-size: 20px;}
+    .indexS p{font-size: 12px;}
 }
 /*iphone6*/
 @media only screen and (min-width: 375px){
@@ -65,7 +65,7 @@ a{ text-decoration: none;}
     .m_inTop .P_font{font-size: 14px;}
     .m_inTop .more{font-size: 17px;float: right;}
     .s_headline ul li{font-size: 18px;}
-    .indexS p{font-size: 22px;}
+    .indexS p{font-size: 14px;}
     /*.s_headline ul li*/
 }
 /*iphone6p*/
@@ -74,7 +74,7 @@ a{ text-decoration: none;}
     .m_inTop .P_font{font-size: 16px;}
     .m_inTop .more{font-size: 18px;float: right;}
     .s_headline ul li{font-size: 20px;}
-    .indexS p{font-size: 24px;}
+    .indexS p{font-size: 16px;}
 }
 /*iphone5横屏*/
 @media only screen and (min-width: 568px){
