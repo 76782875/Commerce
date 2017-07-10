@@ -1,0 +1,115 @@
+html{ margin:0 auto; padding:0 auto; font-size:15px;}
+*{margin:0 auto; padding:0 auto; font-family:"微软雅黑"; }
+body{margin:0 auto; padding:0 auto;overflow-x:hidden;}
+img{ border:0;}ul {margin:0; padding:0;}
+ul li{ list-style:none;}
+a{ text-decoration: none;}
+/*导航*/
+#pubNav{background: #055d8e;}
+#logo{width: 185px;height: 44px;background: #055d8e;}
+.navbar{min-height: 92px;}
+.container-fluid{padding-left: 22px;}
+.navbar-brand{padding-top: 30px;}
+.navbar-default .navbar-toggle{margin-top: 16px;border-color: #055d8e;width: 44px;height: 38px;margin-right: 38px;}
+.navbar-default .navbar-toggle .icon-bar{background: #ffffff;}
+.navbar-toggle .icon-bar{width: 44px;height: 4px;}
+.navbar-toggle .icon-bar+.icon-bar{margin-top: 12px;}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{background: #055d8e;}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{border: none;}
+.navbar-collapse{border-top: none;}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{background: rgba(255, 250, 250, 0);color: #208bda;}
+.nav li a{color: #666666;}
+.collapse ul.nav{background: #055d8e;margin-top: 22px;}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{color:#208bda;}
+.navbar-nav>li>a {line-height: 30px;}
+.navbar-default .navbar-nav>li>a{color: #e4e4e4;}
+/*首页中部*/
+.box_shadow{-webkit-box-shadow:0 0 10px rgba(104, 109, 109, 0.5);  -moz-box-shadow:0 0 10px rgba(104, 109, 109, 0.5);box-shadow:0 0 10px rgba(104, 109, 109, 0.5); border-radius: 8px;-webkit-border-radius: 8px; -moz-border-radius: 8px;}
+.content{padding: 20px;width: 100%;background: url(../images/bg.png) repeat;}
+.m_content{width: 712px;margin-top: 40px;background: #f3f3f3;}
+.m_inTop{height: 50px;width: 100%;padding-right: 38px;overflow: hidden;margin-top: 33px;}
+.headline_cBlue{color: #208bda;}
+.headline_cGray{color: #666666;}
+.headline_cPink{color: #ee4a61;}
+.headline_cGreen{color: #5eaa21;}
+.m_inTop .headline_{color: #208bda;}
+.bor_topBlue{border-top: 18px solid #208bda; }
+.bor_topPink{border-top: 18px solid #ee4a61; }
+.bor_topGreen{border-top: 18px solid #5eaa21; }
+.m_inTop .headline_pub{height: 100px;width: 134px;display: inline-block;padding-left: 26px;}
+.fontw{font-weight: bold;}
+.s_headline{width: 100%;padding: 0 20px;}
+.s_headline ul{overflow: hidden;margin-top: 20px;}
+.s_headline ul li{float: left;width: 50%;margin-top: 20px;}
+.spanBGb{background:#208bda;}
+.spanBGp{background:#ee4a61;}
+.spanBGg{background:#5eaa21;}
+.s_headline ul li span{width: 4px;height: 20px;display: inline-block;margin-right: 18px; }
+.pw_24{display: inline-block;width: 24px;height: 10px;}
+.indexS{padding-bottom: 20px;}
+.indexS p{padding: 0 20px;margin-top: 30px;overflow: hidden;color: #333333;}
+.indexS p small{float: right;margin-top: 18px;color: #999999;}
+/*iphone5*/
+@media only screen and (min-width: 320px){
+     .swiper-slide img{width: 750px;}
+     .navbar-nav>li>a{font-size: 16px;}
+    .m_inTop .P_font{font-size: 34px;}
+    .m_inTop .more{font-size: 18px;float: right;}
+    .s_headline ul li{font-size: 24	px;}
+    .indexS p{font-size: 20px;}
+}
+/*iphone6*/
+@media only screen and (min-width: 375px){
+    .swiper-slide img{width: 750px;}
+ 	.navbar-nav>li>a{font-size: 18px;}
+    .m_inTop .P_font{font-size: 38px;}
+    .m_inTop .more{font-size: 22px;float: right;}
+    .s_headline ul li{font-size: 26px;}
+    .indexS p{font-size: 22px;}
+    /*.s_headline ul li*/
+}
+/*iphone6p*/
+@media only screen and (min-width: 414px){
+    .navbar-nav>li>a{font-size: 20px;}
+    .m_inTop .P_font{font-size: 38px;}
+    .m_inTop .more{font-size: 22px;float: right;}
+    .s_headline ul li{font-size: 25px;}
+    .indexS p{font-size: 24px;}
+}
+/*iphone5横屏*/
+@media only screen and (min-width: 568px){
+    html {
+        font-size:15px !important;
+    }
+    .navbar-nav>li>a{font-size: 25px;}
+    .indexS p{font-size: 26px;}
+
+}
+/*iphone6横屏*/
+@media only screen and (min-width: 667px){
+   .indexS p{font-size: 26px;}
+}
+/*iphone6p横屏*/
+@media only screen and (min-width: 736px){
+    .navbar-nav{
+    	margin-top:20px;margin-left: 80px;
+    }
+    .navbar-nav>li>a{font-size: 25px;margin-left: -80px;}
+}
+/*iPid*/
+@media only screen and (min-width: 768px){
+    .navbar-nav{
+    	margin-top:20px;margin-left: 80px;
+    }
+    .navbar-nav>li>a{font-size: 18px;margin-left: -20px;}
+}
+/*iPid横屏*/
+@media only screen and (min-width: 1024px){
+    html {
+        /*font-size:20px !important;*/
+    }
+    .navbar-nav{
+    	margin-top:20px;margin-left: 80px;
+    }
+}
+/*-----------------------*/
