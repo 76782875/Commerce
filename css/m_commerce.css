@@ -54,8 +54,8 @@ a{ text-decoration: none;}
      .swiper-slide img{width: 750px;}
      .navbar-nav>li>a{font-size: 16px;}
     .m_inTop .P_font{font-size: 17px;}
-    .m_inTop .more{font-size: 18px;float: right;}
-    .s_headline ul li{font-size: 24	px;}
+    .m_inTop .more{font-size: 16px;float: right;}
+    .s_headline ul li{font-size: 16	px;}
     .indexS p{font-size: 20px;}
 }
 /*iphone6*/
@@ -63,8 +63,8 @@ a{ text-decoration: none;}
     .swiper-slide img{width: 750px;}
  	.navbar-nav>li>a{font-size: 18px;}
     .m_inTop .P_font{font-size: 20px;}
-    .m_inTop .more{font-size: 22px;float: right;}
-    .s_headline ul li{font-size: 26px;}
+    .m_inTop .more{font-size: 17px;float: right;}
+    .s_headline ul li{font-size: 18px;}
     .indexS p{font-size: 22px;}
     /*.s_headline ul li*/
 }
@@ -73,7 +73,7 @@ a{ text-decoration: none;}
     .navbar-nav>li>a{font-size: 20px;}
     .m_inTop .P_font{font-size: 20px;}
     .m_inTop .more{font-size: 18px;float: right;}
-    .s_headline ul li{font-size: 25px;}
+    .s_headline ul li{font-size: 20px;}
     .indexS p{font-size: 24px;}
 }
 /*iphone5横屏*/
