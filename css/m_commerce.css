@@ -10,7 +10,7 @@ a{ text-decoration: none;}
 .navbar{min-height: 92px;}
 .container-fluid{padding-left: 22px;}
 .navbar-brand{padding-top: 30px;}
-.navbar-default .navbar-toggle{margin-top: 16px;border-color: #055d8e;width: 44px;height: 58px;margin-right: 38px;}
+.navbar-default .navbar-toggle{margin-top: 16px;border-color: #055d8e;width: 60px;height: 58px;margin-right: 38px;}
 .navbar-default .navbar-toggle .icon-bar{background: #ffffff;}
 .navbar-toggle .icon-bar{width: 50px;height: 4px;}
 .navbar-toggle .icon-bar+.icon-bar{margin-top: 12px;}
