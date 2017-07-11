@@ -74,6 +74,7 @@ body{background: url(../images/bg.png) repeat;}
     .indexS p{font-size: 12px;}
     .fonP p{font-size: 12px;}
     .Culture .about_headline{font-size: 14px;}
+    .m_business .Culture .busHeadline{font-size: 18px;}
 
 }
 /*iphone6*/
@@ -86,6 +87,7 @@ body{background: url(../images/bg.png) repeat;}
     .indexS p{font-size: 14px;}
     .fonP p{font-size: 14px;}
     .Culture .about_headline{font-size: 15px;}
+    .m_business .Culture .busHeadline{font-size: 20px;}
 }
 /*iphone6p*/
 @media only screen and (min-width: 414px){
@@ -96,6 +98,7 @@ body{background: url(../images/bg.png) repeat;}
     .indexS p{font-size: 16px;}
     .fonP p{font-size: 16px;}
     .Culture .about_headline{font-size: 16px;}
+    .m_business .Culture .busHeadline{font-size: 22px;}
 }
 /*iphone5横屏*/
 @media only screen and (min-width: 568px){
@@ -103,6 +106,7 @@ body{background: url(../images/bg.png) repeat;}
     .indexS p{font-size: 18px;}
     .fonP p{font-size: 18px;}
     .Culture .about_headline{font-size: 20px;}
+    .m_business .Culture .busHeadline{font-size: 24px;}
 
 }
 /*iphone6横屏*/
@@ -110,11 +114,13 @@ body{background: url(../images/bg.png) repeat;}
    .indexS p{font-size: 20px;}
    .fonP p{font-size: 20px;}
    .Culture .about_headline{font-size: 22px;}
+   .m_business .Culture .busHeadline{font-size: 24px;}
 }
 /*iphone6p横屏*/
 @media only screen and (min-width: 736px){
     .navbar-nav{margin-top:20px;margin-left: 80px; }
     .navbar-nav>li>a{font-size: 25px;margin-left: -80px;}
+    .m_business .Culture .busHeadline{font-size: 24px;}
 }
 /*iPid*/
 @media only screen and (min-width: 768px){
