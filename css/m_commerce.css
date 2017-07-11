@@ -26,6 +26,7 @@ a{ text-decoration: none;}
 .navbar-default .navbar-nav>li>a{color: #e4e4e4;}
 /*首页中部*/
 .box_shadow{-webkit-box-shadow:0 0 10px rgba(104, 109, 109, 0.5);  -moz-box-shadow:0 0 10px rgba(104, 109, 109, 0.5);box-shadow:0 0 10px rgba(104, 109, 109, 0.5); border-radius: 8px;-webkit-border-radius: 8px; -moz-border-radius: 8px;}
+body{background: url(../images/bg.png) repeat;}
 .content{padding: 20px;width: 100%;background: url(../images/bg.png) repeat;}
 .m_content{width: 712px;margin-top: 40px;background: #f3f3f3;}
 .m_inTop{height: 50px;width: 100%;padding-right: 38px;overflow: hidden;margin-top: 33px;}
@@ -58,8 +59,8 @@ a{ text-decoration: none;}
 .Culture p{text-indent: 2em;margin-top: 28px;}
 /*办事处*/
 .office {margin-top: 0};
-/*.officeAds{width: 100px;height: 200px;background: red;}*/
-.officeAds h2{font-weight: bold;}
+.officeAds{height: 500px;width: 750px;background: red;}
+.officeAds h2{font-weight: bold;display: inline-block;margin-top: 40px;margin-bottom: 20px;}
 /*iphone5*/
 @media only screen and (min-width: 320px){
     .swiper-slide img{width: 750px;}
@@ -98,12 +99,14 @@ a{ text-decoration: none;}
     .navbar-nav>li>a{font-size: 25px;}
     .indexS p{font-size: 18px;}
     .fonP p{font-size: 18px;}
+    .Culture .about_headline{font-size: 20px;}
 
 }
 /*iphone6横屏*/
 @media only screen and (min-width: 667px){
    .indexS p{font-size: 20px;}
    .fonP p{font-size: 20px;}
+   .Culture .about_headline{font-size: 22px;}
 }
 /*iphone6p横屏*/
 @media only screen and (min-width: 736px){
