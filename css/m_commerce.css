@@ -61,7 +61,7 @@ body{background: url(../images/bg.png) repeat;}
 .office {margin-top: 0};
 .officeAds{height: 500px;width: 750px;background: red;}
 .officeAds h2{font-weight: bold;display: inline-block;margin-top: 40px;margin-bottom: 20px;}
-.officeAds .offAds a:nth-child(2) img{margin-right: 12px;margin-left: 12px;}
+.officeAds .offAds a:nth-child(2) img{margin-right: 10px;margin-left: 10px;}
 /*iphone5*/
 @media only screen and (min-width: 320px){
     .swiper-slide img{width: 750px;}
