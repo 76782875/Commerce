@@ -54,7 +54,7 @@ a{ text-decoration: none;}
      .swiper-slide img{width: 750px;}
      .navbar-nav>li>a{font-size: 16px;}
     .m_inTop .P_font{font-size: 18px;}
-    .m_inTop .more{font-size: 16px;float: right;}
+    .m_inTop .more{font-size: 14px;float: right;}
     .s_headline ul li{font-size: 15	px;}
     .indexS p{font-size: 12px;}
 }
@@ -63,7 +63,7 @@ a{ text-decoration: none;}
     .swiper-slide img{width: 750px;}
  	.navbar-nav>li>a{font-size: 18px;}
     .m_inTop .P_font{font-size: 20px;}
-    .m_inTop .more{font-size: 17px;float: right;}
+    .m_inTop .more{font-size: 15px;float: right;}
     .s_headline ul li{font-size: 16px;}
     .indexS p{font-size: 14px;}
     /*.s_headline ul li*/
@@ -72,7 +72,7 @@ a{ text-decoration: none;}
 @media only screen and (min-width: 414px){
     .navbar-nav>li>a{font-size: 20px;}
     .m_inTop .P_font{font-size: 22px;}
-    .m_inTop .more{font-size: 18px;float: right;}
+    .m_inTop .more{font-size: 16px;float: right;}
     .s_headline ul li{font-size: 17px;}
     .indexS p{font-size: 16px;}
 }
