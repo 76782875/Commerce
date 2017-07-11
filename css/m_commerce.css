@@ -63,7 +63,7 @@ body{background: url(../images/bg.png) repeat;}
 .officeAds h2{font-weight: bold;display: inline-block;margin-top: 40px;margin-bottom: 20px;}
 .officeAds .offAds a:nth-child(2) img{margin-right: 10px;margin-left: 10px;}
 /*业务领域*/
-.m_business .Culture .busHeadline{width: 100%;height: 60px;background: url(../img/1.png) no-repeat;background-size: 370px 36px;background-position:center center;color: #208bda;line-height: 30px;}
+.m_business .Culture .busHeadline{width: 100%;height: 60px;background: url(../img/1.png) no-repeat;background-size: 370px 36px;background-position:center center;color: #208bda;line-height: 20px;}
 /*iphone5*/
 @media only screen and (min-width: 320px){
     .swiper-slide img{width: 750px;}
