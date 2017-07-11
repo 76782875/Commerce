@@ -5,6 +5,7 @@ img{ border:0;}ul {margin:0; padding:0;}
 ul li{ list-style:none;}
 a{ text-decoration: none;}
 /*导航*/
+.navbar{border: 1px solid #055d8e;}
 #pubNav{background: #055d8e;width: 100%;}
 #logo{width: 185px;height: 44px;background: #055d8e;}
 .navbar{min-height: 92px;}
