@@ -71,16 +71,16 @@ body{background: url(../images/bg.png) repeat;}
 .m_searchShow .sShowL{width: 678px;min-height: 1000px;float: left;}
 .m_searchShow .sShowR{width: 54px;min-height: 1000px;float: left;}
 .sShowLtop li{width: 100%;overflow: hidden;margin-top: 10px;margin-top: 30px;}
-.sShowLtop li p{color: #333333;font-size: 3.2rem;}
+.sShowLtop li p{color: #333333;font-size: 1.6rem;}
 .sShowLtop li input[type='text']{width:190px;outline: none;height: 50px;border-bottom-left-radius: 8px;border-top-left-radius: 8px;}
 .sShowLtop li button{width: 94px;height: 50px;border-bottom-right-radius: 8px;border-top-right-radius: 8px;margin-left: -6px;outline: none;background: #208bda;color: #dcd7d7;font-size: 1rem;}
 .sShowLtop li button.sehName{margin-right: 64px;}
 .sShowLtop li span{display: inline-block; float: left;color: #333333;font-size: 1rem;}
 .sShowR{margin-top: 130px;padding-bottom: 40px;}
-.sShowR li{color: #333333;font-size: 1.8rem;margin-top: 10px;text-align: center;line-height: 40px;}
+.sShowR li{color: #333333;font-size: 0.9rem;margin-top: 10px;text-align: center;line-height: 40px;}
 .sShowLbom{margin-top: 50px;}
 .sShowLbom li{overflow: hidden;}
-.sShowLbom li p{color: #333333;font-size: 0.8rem;}
+.sShowLbom li p{color: #333333;font-size: 1.6rem;}
 .sShowLbom .layNameList{padding-bottom: 12px;width: 100%;border-bottom: 1px solid #c7c0c0;padding-top: 12px;}
 .sShowLbom .layNameList dt{float: left;}
 .sShowLbom .layNameList dd{margin-left: 100px;}
