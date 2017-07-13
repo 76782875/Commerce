@@ -73,9 +73,9 @@ body{background: url(../images/bg.png) repeat;}
 .sShowLtop li{width: 100%;overflow: hidden;margin-top: 10px;margin-top: 30px;}
 .sShowLtop li p{color: #333333;font-size: 3.2rem;}
 .sShowLtop li input[type='text']{width:190px;outline: none;height: 50px;border-bottom-left-radius: 8px;border-top-left-radius: 8px;}
-.sShowLtop li button{width: 94px;height: 50px;border-bottom-right-radius: 8px;border-top-right-radius: 8px;margin-left: -6px;outline: none;background: #208bda;color: #dcd7d7;font-size: 2rem;}
+.sShowLtop li button{width: 94px;height: 50px;border-bottom-right-radius: 8px;border-top-right-radius: 8px;margin-left: -6px;outline: none;background: #208bda;color: #dcd7d7;font-size: 1rem;}
 .sShowLtop li button.sehName{margin-right: 64px;}
-.sShowLtop li span{display: inline-block; float: left;color: #333333;font-size: 2rem;}
+.sShowLtop li span{display: inline-block; float: left;color: #333333;font-size: 1rem;}
 .sShowR{margin-top: 130px;padding-bottom: 40px;}
 .sShowR li{color: #333333;font-size: 1.8rem;margin-top: 10px;text-align: center;line-height: 40px;}
 .sShowLbom{margin-top: 50px;}
