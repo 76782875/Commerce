@@ -80,12 +80,12 @@ body{background: url(../images/bg.png) repeat;}
 .sShowR li{color: #333333;font-size: 1.8rem;margin-top: 10px;text-align: center;line-height: 40px;}
 .sShowLbom{margin-top: 50px;}
 .sShowLbom li{overflow: hidden;}
-.sShowLbom li p{color: #333333;font-size: 3.2rem;}
+.sShowLbom li p{color: #333333;font-size: 0.8rem;}
 .sShowLbom .layNameList{padding-bottom: 12px;width: 100%;border-bottom: 1px solid #c7c0c0;padding-top: 12px;}
 .sShowLbom .layNameList dt{float: left;}
 .sShowLbom .layNameList dd{margin-left: 100px;}
-.sShowLbom .layNameList dd:nth-child(2){font-size: 2.4rem;}
-.sShowLbom .layNameList dd:nth-child(3){font-size: 2rem;color: #666666;}
+.sShowLbom .layNameList dd:nth-child(2){font-size: 1.2rem;}
+.sShowLbom .layNameList dd:nth-child(3){font-size: 1rem;color: #666666;}
 .sShowLbom .layNameList dt img{width: 85px;height: 85px;}
 
 /*iphone5*/
