@@ -91,7 +91,11 @@ body{background: url(../images/bg.png) repeat;}
 .sShowLbom .layNameList dd:nth-child(2){font-size: 1.2rem;}
 .sShowLbom .layNameList dd:nth-child(3){font-size: 1rem;color: #666666;}
 .sShowLbom .layNameList dt img{width: 85px;height: 85px;}
-
+.m_referral{overflow: hidden;width: 100%;}
+.m_referral dt{float: left;}
+.m_referral dt img{width: 188px;height: 190px;}
+.m_referral dd{color: #9e9e9e;font-size: 0.9rem;margin-left: 210px;}
+.m_referral dd.m_Lawyer{color: #333333;font-size: 3.8rem;}
 /*iphone5*/
 @media only screen and (min-width: 320px){
     .swiper-slide img{width: 750px;}
