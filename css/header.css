@@ -328,4 +328,45 @@ padding: 0 20px;
 .lawExperience .lawExpR .detail .detailshow{margin:0;padding-left: 20px;padding-right: 20px; text-indent: 0;line-height: 30px;font-size: 16px;color:  #a9a9a9;}
 .patop24{padding-top: 24px;}
 .patop14{padding-top: 14px;}
+/*职业机会*/
+.careerShow{width: 100%;min-height:600px; }
+.career{padding: 0px 60px 120px 100px;}
+.careerShow{width: 1044px;}
+
+.careerShow .careerT{width: 100%;height: 394px;overflow: hidden;}
+.careerShow .careerT .careerTl{width: 528px;height: 394px;float: left;border-radius: 4px;}
+.careerShow .careerT .careerTr{width: 500px;height: 394px;float: right;overflow: hidden;}
+.careerShow .careerT .careerTr .careerTrT{width: 500px;height: 182px;overflow: hidden;}
+.careerShow .careerT .careerTr .careerTrT img:nth-child(2){float: right;}
+.careerShow .careerT .careerTr .careerTrB img:nth-child(2){float: right;}
+.careerShow .careerT .careerTr .careerTrB{width: 500px;height: 182px;margin-top: 28px;overflow: hidden;}
+
+.careerShow .careerM{width: 100%;height: 230px;margin-top: 20px;overflow: hidden;vertical-align: middle;}
+.careerShow .careerM img{display: block;float: left;}
+.careerShow .careerM img:nth-child(2){margin-left: 14px;margin-right: 14px;}
+
+.careerB{width:100% ;margin-top: 70px;}
+.careerB .careerBnav{width: 100%;height: 28px;overflow: hidden;padding-left: 0;}
+.careerB .careerBnav li{height: 28px;float: left;margin-right: 70px;line-height: 28px;color: #5b5c5d;font-size: 15px;}
+.careerB .careerBaltS{width: 100%;min-height: 394px;position: relative;}
+.careerB .careerBaltS .careerBaltShow{min-height: 394px;width: 266px;position: absolute;background: #3a89cf;border-radius: 4px;display: none;}
+.careerB .careerBaltS .careerBaltShow:after{
+   content: "";
+    position: absolute;
+    top: -22px;
+    left: 20px;
+    width: 0px;
+    height: 0px;
+    border: 6px solid #e35756;
+    border: 11px solid transparent;
+    border-bottom-color:  #3a89cf;
+}
+.careerlist1{left: 0;}
+.careerlist2{left: 150px;}
+.careerlist3{left: 298px;}
+.careerlist4{left: 442px;}
+.careerlist5{left: 616px;}
+.careerB .careerBaltS .careerBaltShow ul{padding-left: 20px;padding-top: 20px;}
+.careerB .careerBaltS .careerBaltShow ul li{width: 100%;height: 28px;margin-top: 10px;line-height: 28px;color: #fff;}
+
 /*-end-  --jcm*/

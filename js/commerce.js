@@ -61,7 +61,12 @@ $(function(){
 		var inoff=$(this).index();
 		$(".lawExperience .lawExpL .lawshow").animate({scrollLeft:510*inoff+"px"},"fast");
 	}).end();
-
+	// 职业机会
+	$(".careerBnav li").mouseover(function(){
+		var careerBnavs=$(this).index();
+		console.log(careerBnavs);
+	 	$(".careerBaltShow").eq(careerBnavs).css({'display':'block'}).siblings(".careerBaltShow").css({'display':'none'})
+	});
 
 
 
