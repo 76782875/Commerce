@@ -96,6 +96,8 @@ body{background: url(../images/bg.png) repeat;}
 .m_referral dt img{width: 188px;height: 190px;}
 .m_referral dd{color: #9e9e9e;font-size: 0.9rem;margin-left: 210px;}
 .m_referral dd.m_Lawyer{color: #333333;font-size: 1.9rem;}
+.m_Culture h3{text-indent: 1rem; margin-top: 40px;}
+.m_Culture p{text-indent: 0rem; }
 /*iphone5*/
 @media only screen and (min-width: 320px){
     .swiper-slide img{width: 750px;}
