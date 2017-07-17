@@ -30,6 +30,7 @@ body{background:url(../images/bg.png) repeat; }
 .head_bottom{width: 1200px;overflow: hidden;margin:0 auto; }
 .head_bottomLeft,.head_bottomMiddle,.head_bottomRight{float: left;height: 88px;}
 .head_bottomLeft{height: 88px;position: relative;}
+.head_bottomLeft a{text-decoration:none;}
 .head_bottomLeft p{font-size: 26px;color: #3a89cf;letter-spacing:2px;margin-top: 26px;font-weight: bold;font-family: "黑体";height: 6px;}
 .head_bottomLeft small{color: #3a89cf;display: inline-block;}
 .head_bottomMiddle ul{overflow: hidden;margin-left: 120px;}
