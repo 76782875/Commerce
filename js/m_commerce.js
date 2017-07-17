@@ -18,4 +18,14 @@ $(function(){
     }
 }
 browserRedirect();
+//下拉列表
+$(".pull_downList .list_headLine").on('click',function(){
+     var List_x=  $(this).next('ol');
+     var display =$(this).css('display');
+     // if ($(this).is(":hidden")) {}
+      List_x.show(500).siblings('ol').css({'display':'none'});
+      $(this).children('span').removeClass('glyphicon-chevron-right').addClass('glyphicon-chevron-down');
+      $(this).children('span').parent('li').siblings('li').children('span').addClass('glyphicon-chevron-right').removeClass('glyphicon-chevron-down')
+})
+
 })

@@ -27,7 +27,7 @@ a{ text-decoration: none;}
 
 .box_shadow{-webkit-box-shadow:0 0 10px rgba(104, 109, 109, 0.5);  -moz-box-shadow:0 0 10px rgba(104, 109, 109, 0.5);box-shadow:0 0 10px rgba(104, 109, 109, 0.5); border-radius: 8px;-webkit-border-radius: 8px; -moz-border-radius: 8px;}
 body{background: url(../images/bg.png) repeat;}
-.content{padding: 20px;width: 100%;background: url(../images/bg.png) repeat;}
+.content{padding: 20px;width: 100%;/*background: url(../images/bg.png) repeat;*/}
 .m_content{width: 712px;margin-top: 40px;background: #f3f3f3;}
 .m_inTop{height: 50px;width: 100%;padding-right: 38px;overflow: hidden;margin-top: 33px;}
 .headline_cBlue{color: #208bda;}
@@ -98,6 +98,17 @@ body{background: url(../images/bg.png) repeat;}
 .m_referral dd.m_Lawyer{color: #333333;font-size: 1.9rem;}
 .m_Culture h3{text-indent: 1rem; margin-top: 40px;font-size: 2rem;}
 .m_Culture p{text-indent: 0rem; }
+
+/**/
+.pull_down{margin: 0;padding: 0;margin-top: -20px;}
+.borderB{-webkit-box-shadow:0 0 10px rgba(104, 109, 109, 0.5);  -moz-    box-shadow: 0 10px 18px rgba(28, 29, 29, 0.5);    box-shadow: 0 10px 18px rgba(28, 29, 29, 0.5);}
+.pull_downList{width: 100%;min-height:500px;}
+.pull_downList ol{width: 100%;background: #fafafa;display: none;padding-bottom: 20px;}
+.pull_downList ol li{width: 100%; height: 66px;line-height: 94px;font-size: 1.5rem;color: #333333;font-weight: bold;text-indent: 1rem;}
+
+.pull_downList .list_headLine{width: 100%;height: 88px;background: #fff;font-size: 1.5rem;line-height: 88px;color: #333333;text-indent: 2rem;overflow: hidden;font-weight: bold;overflow: hidden;border-bottom: 4px solid #d4d4d4;}
+.pull_downList .list_headLine span{top: 28px;float:right;margin-right: 20px;}
+.pull_downList ol li span{top: 28px;float:right;margin-right: 30px;}
 /*iphone5*/
 @media only screen and (min-width: 320px){
     .swiper-slide img{width: 750px;}
