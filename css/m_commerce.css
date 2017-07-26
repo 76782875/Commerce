@@ -57,6 +57,7 @@ body{background: url(../images/bg.png) repeat;}
 .Culture{margin-top: 50px;}
 .about .Culture .about_headline{width: 410px;height: 60px;margin: 0 auto;background: url(../img/m_about.png) no-repeat;text-align: center;line-height: 60px;color: #fff;}
 .Culture p{text-indent: 2em;margin-top: 28px;}
+.bus1Show p{text-indent: 0rem;}
 
 .office {margin-top: 0};
 .officeAds{height: 500px;width: 750px;background: red;}
@@ -109,6 +110,20 @@ body{background: url(../images/bg.png) repeat;}
 .pull_downList .list_headLine{width: 100%;height: 88px;background: #fff;font-size: 1.5rem;line-height: 88px;color: #333333;text-indent: 2rem;overflow: hidden;overflow: hidden;border-bottom: 4px solid #d4d4d4;}
 .pull_downList .list_headLine span{top: 28px;float:right;margin-right: 20px;}
 .pull_downList ol li span{top: 28px;float:right;margin-right: 40px;}
+
+#s_headline ul li{width: 60%;}
+#dropdown{float: right; margin-right: 1%;top: -20px;}
+#dropdown .dropdown-menu{left: -120%;}
+#dropdown .btn{background: #208bda;color: #fff;}
+#s_headline ul li:before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #208bda;
+    border-radius: 50%;
+    margin-right: 10px;
+}
 /*iphone5*/
 @media only screen and (min-width: 320px){
     .swiper-slide img{width: 750px;}
@@ -120,6 +135,7 @@ body{background: url(../images/bg.png) repeat;}
     .fonP p{font-size: 12px;}
     .Culture .about_headline{font-size: 14px;}
     .m_business .Culture .busHeadline{font-size: 18px;}
+    #fonP{font-size: 26px;}
 
 }
 /*iphone6*/
@@ -133,6 +149,7 @@ body{background: url(../images/bg.png) repeat;}
     .fonP p{font-size: 14px;}
     .Culture .about_headline{font-size: 15px;}
     .m_business .Culture .busHeadline{font-size: 20px;}
+    #fonP{font-size: 30px;}
 }
 /*iphone6p*/
 @media only screen and (min-width: 414px){
