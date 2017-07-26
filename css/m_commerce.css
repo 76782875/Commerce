@@ -111,7 +111,7 @@ body{background: url(../images/bg.png) repeat;}
 .pull_downList .list_headLine span{top: 28px;float:right;margin-right: 20px;}
 .pull_downList ol li span{top: 28px;float:right;margin-right: 40px;}
 
-#s_headline ul li{width: 60%;}
+#s_headline ul li{width: 100%;}
 #dropdown{float: right; margin-right: 1%;top: -20px;}
 #dropdown .dropdown-menu{left: -120%;}
 #dropdown .btn{background: #208bda;color: #fff;}
