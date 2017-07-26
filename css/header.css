@@ -13,7 +13,7 @@ table { border-collapse:collapse; }
 html {overflow-y: scroll;}
 .clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
 .clearfix { *zoom:1; }
-body{ font-family: "微软雅黑"; background-color: #ffffff;width: 100%;}
+body{ font-family: -webkit-pictograph,"微软雅黑"; background-color: #ffffff;width: 100%;}
 /*头部css*/
 body{background:url(../images/bg.png) repeat; }
 .header{width: 100%;height: 130px;background: #fff; -webkit-box-shadow:0px 3px 3px #c8c8c8 inset;-moz-box-shadow:0px 3px 3px #c8c8c8 inset;box-shadow:0px 3px 3px #c8c8c8 inset;border-bottom: 8px solid #1e70ba;}
@@ -350,9 +350,23 @@ padding: 0 20px;
 .careerB .careerBnav{width: 100%;height: 28px;overflow: hidden;padding-left: 0;}
 .careerB .careerBnav li{height: 28px;float: left;margin-right: 70px;line-height: 28px;color: #5b5c5d;font-size: 15px;}
 .careerB .careerBaltS{width: 100%;min-height: 394px;position: relative;}
-.careerB .careerBaltS .careerBaltShow{min-height: 394px;width: 266px;position: absolute;background: #3a89cf;border-radius: 4px;display: none;}
+.careerB .careerBaltS .careerBaltShow{min-height: 394px;width: 266px;position: absolute;border-radius: 4px;z-index: 1;}
 .careerB .careerBaltS .careerBaltShow:after{
-   content: "";
+    content: "";
+    position: absolute;
+    top: -22px;
+    left: 20px;
+    width: 0px;
+    height: 0px;
+    border: 6px solid #e35756;
+    border: 11px solid transparent;
+    border-bottom-color:  #f9f9f9;
+}
+#careerBaltShow{
+  background: #3a89cf;z-index: 10;
+}
+#careerBaltShow:after{
+    content: "";
     position: absolute;
     top: -22px;
     left: 20px;
@@ -363,12 +377,13 @@ padding: 0 20px;
     border-bottom-color:  #3a89cf;
 }
 .careerlist1{left: 0;}
-.careerlist2{left: 150px;}
-.careerlist3{left: 298px;}
-.careerlist4{left: 442px;}
-.careerlist5{left: 616px;}
+.careerlist2{left: 116px;}
+.careerlist3{left: 290px;}
+.careerlist4{left: 418px;}
+.careerlist5{left: 580px;}
 .careerB .careerBaltS .careerBaltShow ul{padding-left: 20px;padding-top: 20px;}
-.careerB .careerBaltS .careerBaltShow ul li{width: 100%;height: 28px;margin-top: 10px;line-height: 28px;color: #fff;}
+.careerB .careerBaltS .careerBaltShow ul li{width: 100%;height: 28px;margin-top: 10px;line-height: 28px;color: #929090;}
+#careerBaltShow ul li{color: #fff;}
 /*高级搜索二级页*/
 .advancedSearchL .Maxthon2{padding-bottom:20px;}
 .advancedSearchL2{margin-top: -20px;}

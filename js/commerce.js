@@ -65,7 +65,7 @@ $(function(){
 	$(".careerBnav li").on('mouseover',function(){
 		var careerBnavs=$(this).index();
 		console.log(careerBnavs);
-	 	$(".careerBaltShow").eq(careerBnavs).css({'display':'block'}).siblings(".careerBaltShow").css({'display':'none'})
+	 	$(".careerBaltShow").eq(careerBnavs).attr("id","careerBaltShow").siblings(".careerBaltShow").removeAttr("id");
 	}).end();
 
 
