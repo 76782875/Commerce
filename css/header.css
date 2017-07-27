@@ -394,4 +394,7 @@ padding: 0 20px;
 .advancedSearchR3Top h4 .wid4top28{width: 4px;height: 28px;background: #3a89cf;display: inline-block;float: left;margin-right: 18px;}
 .advancedSearchR3 .advancedSearchR3show p{text-indent: 0rem;}
 .advancedSearchR3M{margin-top: 0;}
+/*律师详情 相关新闻*/
+.LawnewList ul li a{text-decoration:none;}
+.LawnewList ul li{margin-bottom: 18px;}
 /*-end-  --jcm*/
