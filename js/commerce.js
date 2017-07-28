@@ -12,17 +12,18 @@ $(function(){
 	}).end();
 	// 关于我们时间列表
 	$('.timeStart').css({'color':'#ff9800'})
+	 var isClick = false;
 	$('.timeList li').on('click',function(){
 		$(this).css({"color":"#ff9800"}).siblings("li").css({"color":"#a7a8a9"})
 		$(this).children("span").addClass("active")
 		.parent("li").siblings("li").children("span").removeClass("active");
 		var jiaobiao=$(this).index();
 		$(".historyList").animate({scrollLeft:1028*jiaobiao+"px"},"fast");
-		console.log(jiaobiao)
-		if (jiaobiao>5)
+
+		if (isClick = true){
 			// console.log("11");
-			$(".timeList").animate({scrollLeft:160*jiaobiao+"px"},"fast")
-		if (jiaobiao<5) {
+			$(".timeList").animate({scrollLeft:160*jiaobiao+"px"},"fast")}
+		else{
 			$(".timeList").animate({scrollLeft:160*(jiaobiao-1)+"px"},"fast")
 		}
 	}).end();
@@ -69,6 +70,10 @@ $(function(){
 	}).end();
 
 
-
+// $(function(){
+// var isClick = false;
+// $('#test').click(function(){isClick = true;});
+// $('#show').click(function(){alert(isClick);})
+// })
 /*jcm*/
 })
